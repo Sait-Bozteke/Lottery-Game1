@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Lato&family=Poppins:ital,wght@1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: blue;
+  font-family: "Poppins",sans-serif;
+
+}
+
+.buttons{
+position: absolute;
+width: 70%;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+
+
+
+
+}
+.button{
+height: 50px;
+width: 50px;
+background: yellow;
+transform: scale(2);
+border-radius: 50%;
+color: blue;
+font-size: 2rem;
+text-align: center;
+
+
+
+
+}
+
+.lottery{
+position: absolute;
+top: 70%;
+left: 50%;
+transform: translate(-50%,-50%);
+background: yellow;
+color: blue;
+padding: 0.5rem 2rem;
+font-size: 1.5rem;
+border-radius: 0.5rem;
+cursor: pointer;
+
+
+
+
+
+}
+
+
